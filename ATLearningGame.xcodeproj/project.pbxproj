@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24321D025BD2C1D00191307 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24321CF25BD2C1D00191307 /* Color.swift */; };
 		C2480CA825465D44004DC31A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2480CA725465D44004DC31A /* AppDelegate.swift */; };
 		C2480CAA25465D44004DC31A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2480CA925465D44004DC31A /* SceneDelegate.swift */; };
 		C2480CAC25465D44004DC31A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2480CAB25465D44004DC31A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C24321CF25BD2C1D00191307 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		C2480CA425465D44004DC31A /* ATLearningGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATLearningGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2480CA725465D44004DC31A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2480CA925465D44004DC31A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				C2480CA725465D44004DC31A /* AppDelegate.swift */,
 				C2480CA925465D44004DC31A /* SceneDelegate.swift */,
 				C2480CAB25465D44004DC31A /* ViewController.swift */,
+				C24321CF25BD2C1D00191307 /* Color.swift */,
 				C2480CAD25465D44004DC31A /* Main.storyboard */,
 				C2480CB025465D46004DC31A /* Assets.xcassets */,
 				C2480CB225465D46004DC31A /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2480CAC25465D44004DC31A /* ViewController.swift in Sources */,
+				C24321D025BD2C1D00191307 /* Color.swift in Sources */,
 				C2480CA825465D44004DC31A /* AppDelegate.swift in Sources */,
 				C2480CAA25465D44004DC31A /* SceneDelegate.swift in Sources */,
 			);

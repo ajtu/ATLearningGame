@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "76EC71D8-A24D-45A1-BAFB-3D08C1A5B737"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F4CFF0E-0DCA-411D-A2C8-EB68CCFC605C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ATLearningGame/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "displayRight()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F4CFF0E-0DCA-411D-A2C8-EB68CCFC605C - 323e09c34af99777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATLearningGame.ViewController.displayRight() -&gt; ()"
+                  moduleName = "ATLearningGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alvintu/Developer/ATLearningGame/ATLearningGame/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "3227">
+               </Location>
+               <Location
+                  uuid = "9F4CFF0E-0DCA-411D-A2C8-EB68CCFC605C - 323e09c34af99777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATLearningGame.ViewController.displayRight() -&gt; ()"
+                  moduleName = "ATLearningGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alvintu/Developer/ATLearningGame/ATLearningGame/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "3342">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
