@@ -21,9 +21,6 @@ class ViewController: UIViewController {
     
     
     func setupUI(){
-        for view in self.view.subviews {
-            view.removeFromSuperview()
-        }
         
 
         let VIEW_HEIGHT = view.frame.size.height
@@ -45,9 +42,13 @@ class ViewController: UIViewController {
         yellowButton.addTarget(self,
                                action: #selector(displayRight),
                                for: .touchUpInside)
-        
+            redButton.alpha = 0
+        yellowButton.alpha = 0
         view.addSubview(redButton)
         view.addSubview(yellowButton)
+        redButton.fadeIn()
+        yellowButton.fadeIn()
+
         }
     }
     @objc func displayLeft(){
@@ -60,14 +61,20 @@ class ViewController: UIViewController {
         let leftColor = colors[0]
         let leftLabel = UILabel(frame: FIRST_BUTTON_FRAME)
         if let color = leftColor {
+            leftLabel.alpha = 0
             leftLabel.text = color.text
+            leftLabel.fadeIn(completion: {
+                    (finished: Bool) -> Void in
+                    leftLabel.fadeOut()
+                    })
+
         }
         leftLabel.font = UIFont.systemFont(ofSize: 88)
         
         view.addSubview(leftLabel)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.88) {
-            leftLabel.removeFromSuperview()
-        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 0.88) {
+//            leftLabel.removeFromSuperview()
+//        }
         if tapCounter%5 == 0 {
             colors.removeAll()
             colors = drawColors()
@@ -86,19 +93,27 @@ class ViewController: UIViewController {
         
         let rightLabel = UILabel(frame: SECOND_BUTTON_FRAME)
         if let color = rightColor {
-            rightLabel.text = color.text
-        }
+            rightLabel.alpha = 0
+                     rightLabel.text = color.text
+                     rightLabel.fadeIn(completion: {
+                             (finished: Bool) -> Void in
+                             rightLabel.fadeOut()
+                             })        }
         
         
-        rightLabel.textColor = UIColor.black
+        rightLabel.textColor = UIColor.white
         rightLabel.font = UIFont.systemFont(ofSize: 88)
         view.addSubview(rightLabel)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.88) {
-            rightLabel.removeFromSuperview()
-        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 0.88) {
+//            rightLabel.removeFromSuperview()
+//        }
         
         if tapCounter%8 == 0 {
             colors.removeAll()
+            for view in self.view.subviews {
+                view.fadeOut()
+            }
+
             colors = drawColors()
             setupUI()
 
