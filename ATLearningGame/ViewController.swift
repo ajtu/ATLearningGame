@@ -114,7 +114,7 @@ class ViewController: UIViewController {
 //            rightLabel.removeFromSuperview()
 //        }
         
-        if tapCounter%8 == 0 {
+        if tapCounter%5 == 0 {
             colors.removeAll()
             for view in self.view.subviews {
                 view.fadeOut()
