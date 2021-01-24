@@ -17,12 +17,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         colors = drawColors()
         setupUI()
 
     }
-    
     
     func setupUI(){
         
@@ -162,7 +160,16 @@ class ViewController: UIViewController {
             print(error.localizedDescription)
         }
     }
+    
+  override var prefersHomeIndicatorAutoHidden: Bool {
+    return false
+  }
 
+  override var preferredScreenEdgesDeferringSystemGestures: UIRectEdge {
+    return [UIRectEdge.bottom, UIRectEdge.top]
+  }
     
-    
+ 
+
+
 }
