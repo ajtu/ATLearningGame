@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		C24321D025BD2C1D00191307 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24321CF25BD2C1D00191307 /* Color.swift */; };
 		C24321D225BD370F00191307 /* UIView+FadeAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24321D125BD370F00191307 /* UIView+FadeAnimations.swift */; };
+		C24321D425BD44B400191307 /* blue.wav in Resources */ = {isa = PBXBuildFile; fileRef = C24321D325BD44B400191307 /* blue.wav */; };
+		C24321DA25BD46EA00191307 /* purple.wav in Resources */ = {isa = PBXBuildFile; fileRef = C24321D525BD46E900191307 /* purple.wav */; };
+		C24321DB25BD46EA00191307 /* green.wav in Resources */ = {isa = PBXBuildFile; fileRef = C24321D625BD46E900191307 /* green.wav */; };
+		C24321DC25BD46EA00191307 /* yellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = C24321D725BD46E900191307 /* yellow.wav */; };
+		C24321DD25BD46EA00191307 /* red.wav in Resources */ = {isa = PBXBuildFile; fileRef = C24321D825BD46EA00191307 /* red.wav */; };
+		C24321DE25BD46EA00191307 /* orange.wav in Resources */ = {isa = PBXBuildFile; fileRef = C24321D925BD46EA00191307 /* orange.wav */; };
 		C2480CA825465D44004DC31A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2480CA725465D44004DC31A /* AppDelegate.swift */; };
 		C2480CAA25465D44004DC31A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2480CA925465D44004DC31A /* SceneDelegate.swift */; };
 		C2480CAC25465D44004DC31A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2480CAB25465D44004DC31A /* ViewController.swift */; };
@@ -20,6 +26,12 @@
 /* Begin PBXFileReference section */
 		C24321CF25BD2C1D00191307 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		C24321D125BD370F00191307 /* UIView+FadeAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+FadeAnimations.swift"; sourceTree = "<group>"; };
+		C24321D325BD44B400191307 /* blue.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blue.wav; sourceTree = "<group>"; };
+		C24321D525BD46E900191307 /* purple.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = purple.wav; sourceTree = "<group>"; };
+		C24321D625BD46E900191307 /* green.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = green.wav; sourceTree = "<group>"; };
+		C24321D725BD46E900191307 /* yellow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yellow.wav; sourceTree = "<group>"; };
+		C24321D825BD46EA00191307 /* red.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = red.wav; sourceTree = "<group>"; };
+		C24321D925BD46EA00191307 /* orange.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = orange.wav; sourceTree = "<group>"; };
 		C2480CA425465D44004DC31A /* ATLearningGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATLearningGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2480CA725465D44004DC31A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2480CA925465D44004DC31A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +78,12 @@
 				C24321D125BD370F00191307 /* UIView+FadeAnimations.swift */,
 				C24321CF25BD2C1D00191307 /* Color.swift */,
 				C2480CAD25465D44004DC31A /* Main.storyboard */,
+				C24321D325BD44B400191307 /* blue.wav */,
+				C24321D625BD46E900191307 /* green.wav */,
+				C24321D925BD46EA00191307 /* orange.wav */,
+				C24321D525BD46E900191307 /* purple.wav */,
+				C24321D825BD46EA00191307 /* red.wav */,
+				C24321D725BD46E900191307 /* yellow.wav */,
 				C2480CB025465D46004DC31A /* Assets.xcassets */,
 				C2480CB225465D46004DC31A /* LaunchScreen.storyboard */,
 				C2480CB525465D46004DC31A /* Info.plist */,
@@ -131,8 +149,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24321DE25BD46EA00191307 /* orange.wav in Resources */,
+				C24321DB25BD46EA00191307 /* green.wav in Resources */,
+				C24321D425BD44B400191307 /* blue.wav in Resources */,
 				C2480CB425465D46004DC31A /* LaunchScreen.storyboard in Resources */,
+				C24321DC25BD46EA00191307 /* yellow.wav in Resources */,
+				C24321DA25BD46EA00191307 /* purple.wav in Resources */,
 				C2480CB125465D46004DC31A /* Assets.xcassets in Resources */,
+				C24321DD25BD46EA00191307 /* red.wav in Resources */,
 				C2480CAF25465D44004DC31A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

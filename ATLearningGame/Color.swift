@@ -12,10 +12,12 @@ import UIKit
 struct Color {
     let text: String
     let color: UIColor
-    let soundByte: String
-    init(text: String, color: UIColor, soundByte: String) {
+    let resource: String
+    let ext: String
+    init(text: String, color: UIColor, resource: String, ext:String) {
         self.text   = text
         self.color = color
-        self.soundByte  = soundByte
+        self.resource  = resource
+        self.ext  = ext
     }
 }
